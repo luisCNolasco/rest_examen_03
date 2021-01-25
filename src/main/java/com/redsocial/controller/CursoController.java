@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.redsocial.entity.Curso;
 import com.redsocial.service.CursoService;
 
+@CrossOrigin(origins="http://localhost:4200",maxAge=3600)
 @RestController
 @RequestMapping("/api/rest/curso")
 public class CursoController {
